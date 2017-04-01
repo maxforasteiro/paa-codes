@@ -1,3 +1,10 @@
+/*
+Author: Maximillian Forasteiro
+Date: 2017-04-01 (April Fools rs)
+Problem: with 1 <= k <= 10.000 and 1 <= inter <= n <= 100.000 and k arrays no longer than n.
+Remove the smallest value from the k arrays for each inter and then present k array after inter interations
+Using vector, list, heap (some kind of heap-sort too). worst case <= 0.5s
+*/
 #include <iostream>
 #include <vector>
 #include <list>
@@ -11,7 +18,7 @@ typedef struct{
 
 vector<elem> minimums;
 
-void refaz(int i, int n){
+void fix_heap(int i, int n){
   elem aux;
   aux = minimums[i];
   int f;
@@ -34,7 +41,7 @@ void refaz(int i, int n){
   }
 }
 
-void constroi(int n){
+void build_heap(int n){
   int i;
   for(i=(n/2)-1;i>=0;i--){
     refaz(i, n);
