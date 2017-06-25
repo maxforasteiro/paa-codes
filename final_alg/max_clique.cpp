@@ -41,12 +41,12 @@ void backtrack(int i, int n){
 
 int main(){
   int v, e;
-  int x, y;
+  int coord_x, coord_y;
   cin >> v >> e; //Número de vértices e arestas
 
   for(int i=0;i<e;i++){
-    cin >> x >> y;
-    a[x][y] = a[y][x] = 1; //Matriz de adjacência
+    cin >> coord_x >> coord_y;
+    a[coord_x][coord_y] = a[coord_y][coord_x] = 1; //Matriz de adjacência
   }
 
   backtrack(0, v);
