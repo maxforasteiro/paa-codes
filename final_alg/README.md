@@ -21,39 +21,39 @@ Para conseguirmos testar a corretude dos algoritmos utilizamos [este site](http:
 O grafo pode ser encontrado [nesse link](http://www.info.univ-angers.fr/pub/porumbel/graphs/dsjc125.1.col)
 Não foi obtida respostas diferentes para a versão aproximada em P e a solução ótima em NP, para ambos os casos a resposta foi: 5.
 
-Solução ótima não otimizada: 0m0.010s, 0m0.011s, 0m0.010s
-Solução ótima otimizada: 0m0.006s, 0m0.004s, 0m0.007s
-Solução aproximada não otimizada: 0m0.007s, 0m0.007s, 0m0.007s
-Solução aproximada otimizada: 0m0.005s, 0m0.005s, 0m0.005s
+* Solução ótima não otimizada: 0m0.010s, 0m0.011s, 0m0.010s
+* Solução ótima otimizada: 0m0.006s, 0m0.004s, 0m0.007s
+* Solução aproximada não otimizada: 0m0.007s, 0m0.007s, 0m0.007s
+* Solução aproximada otimizada: 0m0.005s, 0m0.005s, 0m0.005s
 
 ## Grafo de 450 Vértices, 8168 Arestas e Clique máximo de 15
 
 O grafo pode ser encontrado [nesse link](http://www.info.univ-angers.fr/pub/porumbel/graphs/le450_15a.col)
 Não foi obtida respostas diferentes para a versão aproximada em P e a solução ótima em NP, para ambos os casos a resposta foi: 15.
 
-Solução ótima não otimizada: 0m18.917s, 0m18.927s, 0m19.547s
-Solução ótima otimizada: 0m5.197s, 0m5.668s, 0m5.224s
-Solução aproximada não otimizada: 0m0.502s, 0m0.498s, 0m0.509s
-Solução aproximada otimizada: 0m0.238s, 0m0.216s, 0m0.221s
+* Solução ótima não otimizada: 0m18.917s, 0m18.927s, 0m19.547s
+* Solução ótima otimizada: 0m5.197s, 0m5.668s, 0m5.224s
+* Solução aproximada não otimizada: 0m0.502s, 0m0.498s, 0m0.509s
+* Solução aproximada otimizada: 0m0.238s, 0m0.216s, 0m0.221s
 
 ## Grafo de 450 Vértices, 16680 Arestas e Clique máximo de 15
 
 O grafo pode ser encontrado [nesse link](http://www.info.univ-angers.fr/pub/porumbel/graphs/le450_15c.col)
 Não foi obtida respostas diferentes para a versão aproximada em P e a solução ótima em NP, para ambos os casos a resposta foi: 15.
 
-Solução ótima não otimizada: 1m0.307s, 0m57.998s, 1m0.544s
-Solução ótima otimizada: 0m16.552s, 0m16.236s, 0m16.487s
-Solução aproximada não otimizada: 0m2.521s, 0m2.408s, 0m2.425s
-Solução aproximada otimizada: 0m1.091s, 0m1.108s, 0m1.101s
+* Solução ótima não otimizada: 1m0.307s, 0m57.998s, 1m0.544s
+* Solução ótima otimizada: 0m16.552s, 0m16.236s, 0m16.487s
+* Solução aproximada não otimizada: 0m2.521s, 0m2.408s, 0m2.425s
+* Solução aproximada otimizada: 0m1.091s, 0m1.108s, 0m1.101s
 
 ## Grafo de 1000 Vértices, 14378 Arestas e Clique máximo de 20
 
 O grafo pode ser encontrado [nesse link](http://www.info.univ-angers.fr/pub/porumbel/graphs/r1000.1.col)
 Não foi obtida respostas diferentes para a versão aproximada em P e a solução ótima em NP, para ambos os casos a resposta foi: 20.
 
-Solução ótima não otimizada: 13m7.923s, 13m4.298s, 0m19.547s
-Solução ótima otimizada: 0m5.197s, 0m5.668s, 0m5.224s
-Solução aproximada não otimizada: 0m0.502s, 0m0.498s, 0m0.509s
-Solução aproximada otimizada: 0m0.238s, 0m0.216s, 0m0.221s
+* Solução ótima não otimizada: 13m7.923s, 13m4.298s, 0m19.547s
+* Solução ótima otimizada: 0m5.197s, 0m5.668s, 0m5.224s
+* Solução aproximada não otimizada: 0m0.502s, 0m0.498s, 0m0.509s
+* Solução aproximada otimizada: 0m0.238s, 0m0.216s, 0m0.221s
 
 
