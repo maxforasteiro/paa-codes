@@ -1,14 +1,13 @@
 #include <iostream>
 using namespace std;
 const int MAX = 1000;
-int graph[MAX+1][MAX+1]; //Matriz de adjacência L
-int current_clique[MAX + 1]; //Solução atual
-int clique[MAX + 1]; //Solução ótima
-int current_size; //Número atual de vértices
-int clique_size; //Ńúmero máximo atual de vértices
+int graph[MAX+1][MAX+1];
+int current_clique[MAX + 1];
+int clique[MAX + 1];
+int current_size;
+int clique_size;
 
 void backtrack(int level, int vertices){
-  //Calcular grupo máximo
   if(level > vertices){
     for(int j=0;j<vertices;j++){
       clique[j] = current_clique[j];
@@ -16,11 +15,9 @@ void backtrack(int level, int vertices){
     clique_size = current_size;
     return;
   }
-  //Verifica a conexão do vértice atual com os demais vértices
   int connected = 1;
   for(int j=0;j<level;j++){
     if(current_clique[j] && graph[level][j] == 0){
-      //i e j não estão ligados
       connected = 0;
       break;
     }
@@ -42,11 +39,11 @@ void backtrack(int level, int vertices){
 int main(){
   int v, e;
   int x, y;
-  cin >> v >> e; //Número de vértices e arestas
+  cin >> v >> e;
 
   for(int i=0;i<e;i++){
     cin >> x >> y;
-    graph[x][y] = graph[y][x] = 1; //Matriz de adjacência
+    graph[x][y] = graph[y][x] = 1;
   }
 
   backtrack(0, v);

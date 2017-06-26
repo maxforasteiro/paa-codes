@@ -51,9 +51,15 @@ Não foi obtida respostas diferentes para a versão aproximada em P e a soluçã
 O grafo pode ser encontrado [nesse link](http://www.info.univ-angers.fr/pub/porumbel/graphs/r1000.1.col)
 Não foi obtida respostas diferentes para a versão aproximada em P e a solução ótima em NP, para ambos os casos a resposta foi: 20.
 
-* Solução ótima não otimizada: 13m7.923s, 13m4.298s, 0m19.547s
-* Solução ótima otimizada: 0m5.197s, 0m5.668s, 0m5.224s
-* Solução aproximada não otimizada: 0m0.502s, 0m0.498s, 0m0.509s
-* Solução aproximada otimizada: 0m0.238s, 0m0.216s, 0m0.221s
+* Solução ótima não otimizada: 13m7.923s, 13m4.298s, 13m12.924s
+* Solução ótima otimizada: 3m23.045s, 3m27.499s, 3m29.403s
+* Solução aproximada não otimizada: 0m1.181s, 0m1.182s, 0m1.180s
+* Solução aproximada otimizada: 0m0.451s, 0m0.456s, 0m0.462s
 
+## Grafo de 250 Vértices, 14849 Arestas e Clique máximo de 65
 
+O grafo pode ser encontrado [nesse link](http://www.info.univ-angers.fr/pub/porumbel/graphs/r250.5.col)
+Não foi obtida respostas para a solução ótima em NP, após mais de 2 horas do algoritmo rodando ele não gerou nenhum resultado, porém, a versão aproximada gerou a resposta de 65 em um tempo razoavelmente pequeno conforme podemos ver abaixo:
+
+* Solução aproximada não otimizada: 0m2.696s, 0m2.807s, 0m2.692s
+* Solução aproximada otimizada: 0m1.184s, 0m1.187s, 0m1.253s
