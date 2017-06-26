@@ -41,25 +41,16 @@ void backtrack(int level, int vertices){
 
 int main(){
   int v, e;
-  int coord_x, coord_y;
+  int x, y;
   cin >> v >> e; //Número de vértices e arestas
 
   for(int i=0;i<e;i++){
-    cin >> coord_x >> coord_y;
-    graph[coord_x][coord_y] = graph[coord_y][coord_x] = 1; //Matriz de adjacência
+    cin >> x >> y;
+    graph[x][y] = graph[y][x] = 1; //Matriz de adjacência
   }
 
   backtrack(0, v);
-
-  for(int i=0;i<v;i++){
-    if(clique[i]){
-      cout<<i<<" "; //Grupo de saída máxima
-    }
-  }
-
-  cout<<endl;
-
-  cout<<"Maior grupo de vértices:"<<clique_size<<endl;
+  cout << clique_size << endl;
 
   return 0;
 }
