@@ -16,7 +16,7 @@ int find_maximal_clique(int subgraph[], int len){
         if(graph[subgraph[i]][subgraph[j]] && i != j){
           deg[i]++;
         }
-      }            
+      }
     }
     for(int i=0;i<len;i++){
       if(deg[i] < min_deg)
@@ -54,15 +54,15 @@ int main(){
   }
 
   for(int i=0;i<e;i++){
-    int subgraph[1000] = {i},len = 1;
+    int neighborhood[1000] = {i},len = 1;
     for(int j=0;j<e;j++){
       if(graph[i][j]){
-        subgraph[len++] = j;
+        neighborhood[len++] = j;
       }
     }
-    maximal_clique = max(maximal_clique,find_maximal_clique(subgraph,len));
+    maximal_clique = max(maximal_clique,find_maximal_clique(neighborhood, len));
   }
-  
+
   cout << maximal_clique << endl;
   return 0;
 }
